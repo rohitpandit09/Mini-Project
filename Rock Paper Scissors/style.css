@@ -1,0 +1,72 @@
+body{
+    padding:0px;
+    margin:0px;
+    
+}
+
+#box{
+    display:flex;
+    justify-content: space-between;
+    height : 100px;
+    width:600px;
+    position:relative;
+    left:450px;
+    top :100px;
+}
+
+#rock:hover{
+    border-style : solid;
+    border-width:5px;
+    border-color: black;
+    border-radius: 50%;
+
+}
+
+#paper:hover{
+    border-style : solid;
+    border-width:5px;
+    border-color: black;
+    border-radius: 50%;
+}
+
+#scissors:hover{
+    border-style : solid;
+    border-width:5px;
+    border-color: black;
+    border-radius: 50%;
+}
+
+#scoreboard{
+    height:20px;
+    width:250px;
+    display: flex;
+    justify-content: space-evenly;
+    position:relative;
+    left:600px;
+    top:300px;
+}
+
+.name{
+    font-size: large;
+    font-weight: 500;
+    position:relative;
+    left:20px;
+}
+
+.score{
+    font-size: large;
+    font-weight: 500;
+    position:relative;
+    left:20px;
+}
+
+#restartBtn{
+    width:200px;
+    position:relative;
+    left:650px;
+    top: 400px;
+    color : white;
+    background-color: green;
+    border-radius: 3px;
+}
+
