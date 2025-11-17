@@ -1,0 +1,92 @@
+body{
+    margin :0px;
+    padding:0px;
+    background-color: blue;
+}
+
+#box{
+    width:500px;
+    height: 400px;
+    display: flexbox;
+    border-style :solid;
+    border-width: 8px;
+    border-radius :40px;
+    background-color: aqua;
+    position : relative;
+    top:200px;
+    left:500px;
+}
+
+#buttonBox{
+    display: flex;
+    justify-content: space-between;
+    width:300px;
+    position: relative;
+    top:100px;
+    left:90px;
+
+}
+
+#title{
+    font-size: 50px;
+    color :black;
+    text-align: center;
+}
+
+#inputNumber{
+    position: relative;
+    left:90px;
+    top:40px;
+    justify-content: center;
+    width:300px;
+    height:20px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    border-radius: 5px;
+
+}
+
+#enter:hover{
+    opacity: 0.5;
+    
+}
+
+#enter{
+
+    border-style:solid;
+    border-width :2px;
+    border-radius : 4px;
+    background-color:greenyellow;
+    text-decoration-color: black;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+#reset:hover{
+    opacity: 0.5;
+}
+
+#reset{
+    
+    width:120px;
+    border-style:solid;
+    border-width :2px;
+    border-radius : 4px;
+    background-color:red;
+    text-decoration-color: black;
+    font-size: 30px;
+    font-weight: bolder;
+
+}
+
+#screen{  
+    /* background-color: yellow; */
+    height:fit-content;
+    width:fit-content;
+    position: relative;
+    top:60px;
+    left:140px;
+    
+    
+}
