@@ -1,0 +1,57 @@
+body{
+    margin :0px;
+    padding:0px;
+    background-color:rgb(66, 60, 60);
+    
+    
+}
+
+#container{
+    display: flex-box;
+    height :400px;
+    width:400px;
+    background-color:rgb(205, 203, 203);
+    border-radius: 10px;
+    border : solid 3px black;
+    position: relative;
+    left:570px;
+    top:100px;
+}
+
+#screen{
+    width:400px;
+    height:100px;
+    background-color:grey;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-style: solid;
+    border-bottom-color: black;
+    border-bottom-width:3px;
+}
+
+#convertFrom{
+    height:30px;
+    width:auto;
+    position: relative;
+    top:100px;
+    left:50px;
+}
+
+#convertTo{
+    height:30px;
+    width:auto;
+    position: relative;
+    top:100px;
+    left:200px;
+}
+
+#click{
+    height:30px;
+    width:150px;
+    color:black;
+    background-color: greenyellow;
+    position: relative;
+    top:200px;
+    right:20px;
+
+}
